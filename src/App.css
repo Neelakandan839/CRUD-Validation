@@ -1,0 +1,29 @@
+.nav {
+  padding: 2rem 0;
+  font-size: 1.5rem;
+  gap: 1rem;
+  background-color:blue;
+  height:80px;
+}
+.linkname,
+.nav {
+  color: #fff;
+}
+.nav p {
+  font-size: 2.3rem;
+  font-weight: 700;
+}
+.linkname:hover {
+  text-decoration: none;
+  color: white;
+}
+@media screen and (max-width: 767px) {
+  .nav {
+    padding: 1.5rem 0;
+    font-size: 1.2rem;
+  }
+  .nav p {
+    font-size: 1.5rem;
+  }
+}
+

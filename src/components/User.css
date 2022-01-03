@@ -1,0 +1,40 @@
+
+.user-profile button {
+  height: 35px;
+  width: 110px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+.main {
+  margin-left: 130px;
+}
+.user-profile {
+  width: 350px;
+  font-size: 0.9rem;
+  font-weight: 900;
+  background-color:cyan ;
+  color: rgb(109, 12, 12);
+}
+h1 {
+  color: blue;
+  font-weight: 700;
+}
+@media screen and (max-width: 767px) {
+  .main {
+    margin-left: 5px;
+  }
+  .user-profile button {
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+  }
+  .user-profile {
+    font-size: 0.85rem;
+  }
+  .user-info {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,32 @@
+.user-data input {
+  border-radius: 5px;
+  font-size: 0.9rem;
+  color: #000000;
+}
+.user-data label {
+  color: #000000;
+}
+.user-data button {
+  border-radius: 5px;
+  font-weight: 900;
+  margin: 30px 0;
+  padding: 10px;
+  width: 200px;
+}
+h2 {
+  color: blue;
+  font-weight: 700;
+}
+@media screen and (max-width: 767px) {
+  .user-data button {
+    margin: 20px 0;
+    padding: 5px;
+    width: 100px;
+  }
+  .user-data input {
+    font-size: 0.75rem;
+  }
+  .user-data label {
+    font-size: 0.85rem;
+  }
+}
